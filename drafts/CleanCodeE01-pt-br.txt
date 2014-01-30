@@ -1,0 +1,92 @@
+Uncle Bob: Bem vindos, bem vindos à refilmagem do Episódio 1 - Código Limpo.
+Uncle Bob: Posso pegar seu chapéu?
+Uncle Bob: Dois anos e meio se passaram desde que eu escrevi e produzi nosso primeiro episódio. Agora, com mais de vinte episódios gravados, pensamos que já era tempo de aprimorar o antigo primeiro episódio e fazer com que ele esteja dentro dos nossos padrões atuais de áudio, vídeo e script.
+
+Uncle Bob: Afinal, para muitas pessoas, esse é o primeiro episódio que elas verão. E nós achamos que primeiras impressões são importantes.
+
+Uncle Bob: Então, aqui está, todo limpo e refatorado.
+
+Uncle Bob: O novo, mais limpo, Episódio 1, Código Limpo
+__________
+
+Uncle Bob: Em 2008, Kent Beck escreveu um maravilhoso livro intitulado “”Padrões de Implementação”. Ele descreveu uma série de dicas e técnicas que programadores poderiam usar para manter seu código bem estruturado.
+
+Uncle Bob: Mas ele começou o livro com o que eu considero ser uma declaração surpreendente: Ele escreveu: “”… este livro é baseado em uma premissa relativamente frágil: que código bom é importante
+
+Sherlock: Frágil? Frágil? Eu não vejo nada de frágil sobre o fato de que código bom é importante. É claro que é importante! Que absurdo pensar de outra maneira!
+
+Uncle Bob: É claro que, como autor deste livro, Código Limpo, eu concordo. Código limpo é muito importante.
+
+Spock: De fato, Código Limpo pode fazer a diferença entre o sucesso ou fracasso total de sua empresa.
+
+Uncle Bob: Eu tive essa experiência de forma muito direta. Veja bem, deixe-me contar-lhe uma história da “Empresa Assassinada pelo Código.”
+
+Uncle Bob: Por volta de 1988, eu trabalhei para uma empresa que estava construindo um grande sistema de gerenciamento de redes em C. Nós usamos um depurador de uma empresa que vou chamar de “Espada”. Ele nos permitia criar breakpoints e navegar linha a linha diretamente no nosso código fonte “C”.
+
+Ruby Rod: Tipo, cara, eu depuro meu código fonte Ruby todo o tempo.
+
+Uncle Bob: É, mas naquela época um depurador no nível do código era uma raridade. Na maioria das vezes nós depurávamos em hexadecimal.
+
+Jerry Java: É, he he, hexadecimal, hehe. Isso soa como um pesadelo.
+
+Uncle Bob: Sim, era mesmo; mas essa ferramenta “Espada” fez uma grande diferença. Ela era realmente poderosa e nos economizou muito tempo e dinheiro. Nos a amávamos.
+
+Danny Dotnet: Nossa, Uncle Bob, deve ter sido um produto bastante popular naquele tempo!
+
+Uncle Bob: Ah, ele era! Eles estávamos fazendo um negócio “da china”. Os periódicos sobre negócios estavam delirantes sobre o produto, e as pessoas nos grupos de usuários e conferências extasiados.
+
+Uncle Bob: Alguns anos atrás era 1990, e nós estávamos começando a sonhar com a troca de C para C++.
+
+Uncle Bob: Nós ligamos para “Espada” e perguntamos se eles iriam ter suporte a C++ a curto prazo.
+
+Uncle Bob: Eles nós disseram que a versão para C++ estava vindo muito em breve.
+
+Uncle Bob: Mas o tempo foi passando… Por seis meses ele foi passando…
+
+Uncle Bob: Mas enfim a versão do depurado “Espada” chegou. Nós estávamos realmente excitados. Então nós o instalamos e então executamos!
+
+Uncle Bob: Mas ele levou 45 minutos para carregar… E então “explodiu”.
+
+Jerry Java: É, he he. Boom.
+
+Uncle Bob: Bem, nós não achamos nada divertido. Depurar C++ em hexadecimal não é pura diversão. Então nós ligamos para “Espada” e dissemos a eles que eles precisavam consertar isso. Eles juraram que nosso problema seria resolvido na próxima versão.
+
+Jerry Java: Mas levou outros seis meses para eles lançarem outra versão?
+
+Uncle Bob: Sim, Jerry, levou. E acredite em mim, nossa paciência estava realmente se acabando.
+
+Jerry Java: E então, quando vocês receberam a nova versão, ela continuou levando 45 minutos para carregar, e então explodiu novamente?
+
+Uncle Bob: Sim, Jerry, isso foi exatamente o que aconteceu.
+
+Não é preciso dizer que nós cancelamos nossa licença e fomos cuidar das nossas vidas. Do nosso ponto de vista, aquele produto estava morto.
+
+Uncle Bob: Nós interrompemos este programa para lhes trazer um boletim de notícias especial. Espada Ltda., famosa criadora do popular depurador C, declarou falência e fechou suas portas para sempre. Retornamos agora à programação normal.
+
+Uncle Bob: É, foi apenas alguns meses após aquela desastrosa segunda versão que a empresa afundou e o produto desapareceu.
+
+Uncle Bob: Mas não é aí que a história se acaba.
+
+——— 10 anos depois ———
+
+Uncle Bob: Uma década depois, eu estava em uma conferência C++, e conheci um programador que havia trabalhado na “Espada”.
+
+Uncle Bob: Eu perguntei a ele o que havia acontecido, e ele me contou a história.
+
+Engenheiro: Filho, quando nós começamos aquele projeto, aqueles loucos do marketing nos disseram que nós precisávamos ser os primeiros no mercado a qualquer custo. Eles nos disseram que se nós não fôssemos os primeiros, seria melhor nem começar.
+
+Engenheiro: Então nós corremos, filho. Nós corremos como um cavalo em um terrível incêndio, como um coelho das mandíbulas de um lobo. Nós corremos, e fizemos uma grande bagunça. Aquele código dava a impressão de ter sido destruído por um estouro de porcos famintos.
+
+Engenheiro: Vou te dizer, filho, foi um milagre aquele código funcionar. Lançar aquela versão para C custou muita gambiarra e arame e fita adesiva. Mas nós conseguimos, filho. Nós fizemos “funcionar” a qualquer custo.
+
+Engenheiro: É claro que, na época, isso era tudo que nós poderíamos fazer para manter o sistema funcionando, porque tinha sempre outra correção de bug ou alguma funcionalidade de alta prioridade e clientes criando programas cada vez maiores e querendo cada vez mais velocidade.
+
+Engenheiro: Então nós nos mantivemos correndo, filho. Não havia tempo para limpar nada, porque sempre havia alguma nova emergência, algum novo cliente que “tinha” que ser satisfeito. Nós nunca tivemos tempo de refatorar, filho.
+
+Engenheiro: Então, filho, então eles jogaram a grande merda de cavalo no ventilador. Eles nos disseram que nós tínhamos apenas alguns meses para ter a coisa toda funcionando com C++. C++! Filho, você sabe o quão difícil é analisar C++?
+
+Engenheiro: Bem, deixa eu te contar, isso era simplesmente impossível, quer dizer, o código já estava mais emaranhado do que um monte de feno em um tornado.
+
+Engenheiro: Ah, nós tentamos, filho. Nós tentamos de tudo. Nós trabalhamos como uma égua dando a luz a um cavalo adulto. Nós trabalhamos de dia, nós trabalhamos à noite, e nós trabalhamos e trabalhamos.
+
+Engenheiro: E nós falhamos, filho. Simplesmente não era possível pegar aquela monte de código espaguete e fazê-lo funcionar para uma linguagem como C++. Estava condenado ao desastre, e isso tudo aconteceu por causa da correria que nós fizemos no início de tudo.
